@@ -3,7 +3,7 @@ function [ out ] = focal_stacking( fPath )
 % will apply wildcard * to include all images under the spcified folder
 
 % CONST parameters:
-
+    
 avgFilterSize = 60;
 
     inputFiles = dir(strcat(fPath, './*.jpg'));
